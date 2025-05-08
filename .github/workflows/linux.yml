@@ -47,17 +47,17 @@ jobs:
     strategy:
       matrix:
         include:
-          - { os: linux, arch: amd64, debian: amd64, rpm: x86_64, pacman: x86_64 }
-          - { os: linux, arch: "386", debian: i386, rpm: i386 }
-          - { os: linux, arch: arm, goarm: "6", debian: armel, rpm: armv6hl }
-          - { os: linux, arch: arm, goarm: "7", debian: armhf, rpm: armv7hl, pacman: armv7hl }
+          # - { os: linux, arch: amd64, debian: amd64, rpm: x86_64, pacman: x86_64 }
+          # - { os: linux, arch: "386", debian: i386, rpm: i386 }
+          # - { os: linux, arch: arm, goarm: "6", debian: armel, rpm: armv6hl }
+          # - { os: linux, arch: arm, goarm: "7", debian: armhf, rpm: armv7hl, pacman: armv7hl }
           - { os: linux, arch: arm64, debian: arm64, rpm: aarch64, pacman: aarch64 }
-          - { os: linux, arch: mips64le, debian: mips64el, rpm: mips64el }
-          - { os: linux, arch: mipsle, debian: mipsel, rpm: mipsel }
-          - { os: linux, arch: s390x, debian: s390x, rpm: s390x }
-          - { os: linux, arch: ppc64le, debian: ppc64el, rpm: ppc64le }
-          - { os: linux, arch: riscv64, debian: riscv64, rpm: riscv64 }
-          - { os: linux, arch: loong64, debian: loongarch64, rpm: loongarch64 }
+          # - { os: linux, arch: mips64le, debian: mips64el, rpm: mips64el }
+          # - { os: linux, arch: mipsle, debian: mipsel, rpm: mipsel }
+          # - { os: linux, arch: s390x, debian: s390x, rpm: s390x }
+          # - { os: linux, arch: ppc64le, debian: ppc64el, rpm: ppc64le }
+          # - { os: linux, arch: riscv64, debian: riscv64, rpm: riscv64 }
+          # - { os: linux, arch: loong64, debian: loongarch64, rpm: loongarch64 }
     steps:
       - name: Checkout
         uses: actions/checkout@eef61447b9ff4aafe5dcd4e0bbf5d482be7e7871 # v4
