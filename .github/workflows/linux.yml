@@ -51,7 +51,7 @@ jobs:
           # - { os: linux, arch: "386", debian: i386, rpm: i386 }
           # - { os: linux, arch: arm, goarm: "6", debian: armel, rpm: armv6hl }
           # - { os: linux, arch: arm, goarm: "7", debian: armhf, rpm: armv7hl, pacman: armv7hl }
-          - { os: linux, arch: arm64, debian: arm64, rpm: aarch64, pacman: aarch64 }
+          # - { os: linux, arch: arm64, debian: arm64, rpm: aarch64, pacman: aarch64 }
           - { os: linux, arch: arm64, debian: arm64, rpm: aarch64, pacman: aarch64, openwrt: "aarch64_cortex-a53 aarch64_cortex-a72 aarch64_cortex-a76 aarch64_generic" }
           # - { os: linux, arch: mips64le, debian: mips64el, rpm: mips64el }
           # - { os: linux, arch: mipsle, debian: mipsel, rpm: mipsel }
